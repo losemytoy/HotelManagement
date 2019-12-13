@@ -1,0 +1,179 @@
+			*{
+				padding: 0;
+				margin: 0;
+				outline: none;
+			}
+			body {
+			    font-size: 12px;
+			    color: #000;
+			    font-family: "微软雅黑";
+			}
+			.digital{
+				width: 65%;
+				margin: 30px auto;
+			}
+			.digitalTitle{
+			    height: 60px;
+    			line-height: 60px;
+			    font-size: 16px;
+			}
+			.CAButtonS{
+				margin: 20px 0;
+			}
+			
+			table.dataTable tbody tr,.reseachIput,#tablesLength>label>select,#tablesPageinate .pageinateBtn{
+			    background: #03152E;
+			}
+			.requestBtn{
+				vertical-align: baseline;
+				margin-left: 16px;
+			}
+			#userImportTable{
+			    background: #003975;
+			    color: #fff;
+			    border: none!important;
+			    text-align: center;
+			    margin: 20px 0;
+			}
+			#userImportTable tr{
+				height: 40px;
+				line-height: 40px;
+			}
+			自定义表格格式
+			table tbody tr, .reseachIput, #tablesLength>label>select, #tablesPageinate .pageinateBtn{
+				background: #03152E;
+			}
+			.reseachIputCertificate{
+			    height: 40px;
+			    width: 500px;
+			    background: #03152E;
+			    
+			    border-radius: 4px;
+			    border: none;
+			    padding: 0 6px;
+			    color: #fff;
+			}
+			.uploadDigitalLabel{
+
+    			float: right;
+				
+			}
+			
+			.uploadDigitalInput{
+				width: 300px;
+			    background: #03152E;
+			    border: none;
+			    height: 40px;
+			    border-radius: 4px;
+			    color: #fff;
+			    padding:0 6px;
+			    margin-right: 16px;
+    			vertical-align: middle;
+			}
+			.digitalTop{
+				margin-bottom: 7px;
+			}
+			.userImportTableBottom .dataTablesInfo{
+				float: left;
+				
+			}
+			.userImportTableBottom  .tablePageinate,.userImportTableBottom  .digitalLength{
+				float: right;
+			}
+			.userImportTableBottom  .digitalLength{
+				float: right;
+			    padding-top: 0.25em;
+			    margin-right: 20px;
+			}
+			    
+			.userImportTableBottom  .digitalLength select{
+				background: #03152E;
+			    border: none;
+			    border-radius: 4px;
+			    color: #fff;
+			    margin: 0 4px;
+			    padding: 4px;
+			}
+			.tablePageinate .pageinateBtn.current{
+			    width: 30px;
+			    height: 30px;
+			    font-size: 12px;
+			    background: #0589E0;
+			    text-align: center;
+			    line-height: 30px;
+			    border-radius: 4px;
+			    color: #fff!important;
+			    border: none!important;
+			}
+			#pageNext:hover,#pagePrevious:hover,.tablePageinate .pageinateBtn:hover {
+		    	background: #0589E0;
+		    	cursor: pointer;
+		    }
+		    .tablePageinate .disabled{
+		    	cursor: no-drop!important;
+		    }
+			#pageNext,#pagePrevious,.tablePageinate .pageinateBtn {
+				display: inline-block;
+				width: 30px;
+			    height: 30px;
+			    margin: 0px 2px;
+			    font-size: 12px;
+			    background: #03152E;
+			    text-align: center;
+			    line-height: 30px;
+			    border-radius: 4px;
+			    color: #fff!important;
+			    border: none!important;
+			   
+			}
+			.userImportTableBottom .dataTablesInfo>button{
+				color: #fff;
+			    margin-left: 20px;
+			}
+			.clearBoth{
+				clear: both;
+			}
+			.selectedNumDigital{
+				color: #0589E0;
+    			margin: 0 2px;
+			}
+			
+			.importBtns{
+				text-align: center;
+				margin-top: 20px;
+			}
+			.importBtns>button{
+		    	height: 38px;
+				line-height: 38px;
+    			border: none;
+    			color: #fff;
+    			margin: 0 6px;
+			}
+			.roleSlect{
+			    background: #03152E;
+			    padding: 4px 6px;
+			    border: none;
+			    color: #fff;
+			}
+			.reminder{
+			    font-size: 13px;
+			    text-align: center;
+			    background: #03152E;
+			    height: 40px;
+			    color: #fff;
+			    margin-top: -20px;
+			    margin-bottom: 20px;
+			    line-height: 40px;
+			}
+			.showDatasBtn,.checkBtn{
+				background: #0589E0;
+   				border: none;
+			    color: #fff;
+			    padding: 4px 6px ;
+			    border-radius: 4px;
+			    cursor: pointer;
+			    opacity: 0.8;
+			}
+			button:hover{
+			    opacity: 1;
+			}
